@@ -24,3 +24,16 @@ git add .
 ```
 
 `.` => Aquí (Hace referencia a la carpeta en donde estamos)
+
+- Ejemplo para hacer un commit
+
+```bash
+git commit -m "mensaje referente a los cambios que hicimos"
+git commit -m "Creando la carpeta 102 para almacenar las lecturas"
+```
+
+- Ejemplo para subir nuestros cambios a github.com
+  
+```bash
+git push origin main (debemos especificar a que rama queremos subir los cambios)
+```
