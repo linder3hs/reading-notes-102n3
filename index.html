@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h2 {
+      color: green;
+      font-family: Arial;
+    }
+  </style>
+  <body>
+    <script>
+      document.write("Hola, Bienvenido a JS");
+    </script>
+    <h1>Conociendo JS</h1>
+    <img
+      src="https://www.enter.edu.pe/assets/enter_logo_white.svg/"
+      style="background-color: black"
+      alt=""
+    />
+    <script>
+      document.write("<h2>Insertando un texto debajo de la imagen</h2>");
+    </script>
+    <script>
+      const nombre = "Linder";
+      const apellido = "Hassinger";
+
+      // alert
+      // alert(nombre);
+      // imprimir dentro de nuesta pagina web
+      // document.write(nombre);
+      // document.write(apellido);
+      // imprimir en console
+      console.log(nombre);
+      console.log(apellido);
+    </script>
+
+    <script>
+      // vamos a ver como poder obtener información del cliente
+      let nombreDelCliente = ""; // "" => vacio
+      nombreDelCliente = prompt("Cual es tu nombre?");
+      // concatenar a poder unir el valor de 2 variables 0 mas
+      document.write("Hola como estas? " + nombreDelCliente);
+      // Ejericio: Vamos a preguntarle a nuestro cliente cual es su edad y
+      // vamos a validar si es mayor o menor de edad
+      // Int => Integer => Enteros
+      const edad = parseInt(prompt("Cual es tu edad?"));
+      // nota: todo valor que obtengamos del prompt siempre será un string
+      // como podemos hacer una condicional en JS
+      // what if if => Si de forma condicional
+      if (edad >= 18) {
+        // alert("El usuario es mayor de edad");
+        document.write("<p>El usuario es mayor de edad</p>");
+      } else {
+        // alert("El usuario es menor de edad");
+        document.write("<p>El usuario es menor de edad</p>");
+      }
+    </script>
+  </body>
+</html>
